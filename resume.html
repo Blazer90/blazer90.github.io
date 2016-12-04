@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery lesson</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<link rel="stylesheet" type="text/css" href="about.css">
+	<link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700,700i&subset=cyrillic" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto|Ubuntu" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script type="text/javascript" src="jquery-3.0.0.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+	<div class="container">
+		<nav class="navigation">
+			<ul class="main-menu clearfix">
+				<li class="main-menu_li"><a href="about.html">Начало</a></li>
+				<li class="main-menu_li"><a href="resume.html">Резюме</a></li>
+				<li class="main-menu_li"><a href="css.html">CSS</a></li>
+				<li class="main-menu_li"><a href="js.html">Java Script</a></li>
+			</ul>
+		</nav>
+		<section class="main-content">
+			<h1 class="main-content_header">Резюме</h1>
+			<article class="main-content_resume">
+				<img src="img/resume_foto.png" class="main-content_resume_foto" alt="Foto">
+				<h2 class="main-content_resume_name">Рожков Алексей Андреевич</h2>
+				<div class="main-content_resume_about clearfix">
+					<div class="main-content_resume_about_more">Дата рождения: <b>5 июля 1990</b> (26 лет)</div>
+					<div class="main-content_resume_about_more">Город: <b>Москва</b></div>
+					<div class="main-content_resume_about_more">Близжайшее метро: 
+						<div class="metro">
+							<div class="metro_text">Калужская</div>
+							<div class="metro-hover">
+								<div class="metro-hover_text">Мой дом и метро:</div>
+								<img src="img/dom.png" class="merto-hover_img" alt="Metro">
+							</div>
+						</div>
+					</div>
+					<div class="main-content_resume_about_more">Телефон: <b>8 916 597 3531</b></div>
+				</div>
+				<div class="clearfix">
+					<h3 class="main-content_resume_block-header">Опыт работы</h3>
+				</div>
+				<div class="main-content_resume_block">
+					<h4 class="main-content_resume_block-header_mini">Август 2014 - июнь 2016</h4>
+					<div class="main-content_resume_block_info">
+						<img src="img/destiny.png" class="destiny-img" alt="Destiny-logo">
+						<p class="clearfix"><strong>Интернет маркетолог</strong></p>
+						<p class="clearfix"><strong>Destiny Development</strong></p>
+						<p class="clearfix">Москва, <a href="https://www.ddestiny.ru/">www.ddestiny.ru</a></p>
+					</div>
+					<h4 class="main-content_resume_block-header_mini">Август 2016 - октябрь 2016</h4>
+					<div class="main-content_resume_block_info">
+						<img src="img/paragon.png" class="paragon-img" alt="Paragon-logo">
+						<p class="clearfix"><strong>HTML-Верстальщик</strong></p>
+						<p class="clearfix"><strong>Paragon Sofrware Group</strong></p>
+						<p class="clearfix">Москва, <a href="http://www.paragon.ru/">www.paragon.ru</a></p>
+					</div>
+				</div>
+				<div class="clearfix">
+					<h3 class="main-content_resume_block-header">Навыки</h3>
+				</div>
+				<div class="main-content_resume_block">
+					<ul class="main-content_resume_block_skills-list clearfix">
+						<li class="main-content_resume_block_skills-list_li" onclick="document.getElementById('html-popup').style.display='block';">HTML 5</li>
+						<li class="main-content_resume_block_skills-list_li" onclick="document.getElementById('css-popup').style.display='block';">CSS 3</li>
+						<li class="main-content_resume_block_skills-list_li" onclick="document.getElementById('krbr-popup').style.display='block';">Кроссбраузерная верстка</li>
+						<li class="main-content_resume_block_skills-list_li" onclick="document.getElementById('advr-popup').style.display='block';">Адаптивная верстка</li>
+						<li class="main-content_resume_block_skills-list_li" onclick="document.getElementById('js-popup').style.display='block';">Javascript</li>
+						<li class="main-content_resume_block_skills-list_li" onclick="document.getElementById('bt-popup').style.display='block';">Bootstrap</li>
+						<li class="main-content_resume_block_skills-list_li" onclick="document.getElementById('jq-popup').style.display='block';">JQuery</li>
+					</ul>
+					<div id="html-popup">
+						<div class="skills-list_popup_op"></div>
+						<div class="skills-list_popup">
+							<p onclick="document.getElementById('html-popup').style.display='none';">Закрыть</p>
+							<p>HTML 5 я изучал в Нетологии, изучил основы HTML и новые приемы HTML 5, вроде <b>section</b>, <b>article</b>, <b>header</b>, <b>footer</b> и другие. Все это очень помогло мне в верстке валидных и семантичных страниц.</p>
+						</div>
+					</div>
+					<div id="css-popup">
+						<div class="skills-list_popup_op"></div>
+						<div class="skills-list_popup">
+							<p onclick="document.getElementById('css-popup').style.display='none';">Закрыть</p>
+							<p>CSS 3 я также изучал в Нетологии и самостоятельно, изучил основные стили и приемы CSS, анимацию, transitions и прочее.</p>
+						</div>
+					</div>
+					<div id="krbr-popup">
+						<div class="skills-list_popup_op"></div>
+						<div class="skills-list_popup">
+							<p onclick="document.getElementById('krbr-popup').style.display='none';">Закрыть</p>
+							<p>Кроссбраузерная верстка конечно же приходит с опытом, пока я стараюсь использовать <b>normalize.css</b> и добавление свойст <b>-webkit- -o- -moz-</b>, если необходимо.</p>
+						</div>
+					</div>
+					<div id="advr-popup">
+						<div class="skills-list_popup_op"></div>
+						<div class="skills-list_popup">
+							<p onclick="document.getElementById('advr-popup').style.display='none';">Закрыть</p>
+							<p>Знаю основы (принцип) Адаптивной верстки, путем добавления <b>media</b> запросов под различные разрешения экранов устройств.</p>
+						</div>
+					</div>
+					<div id="js-popup">
+						<div class="skills-list_popup_op"></div>
+						<div class="skills-list_popup">
+							<p onclick="document.getElementById('js-popup').style.display='none';">Закрыть</p>
+							<p>Javascript я начал изучать в Нетологии, а также самостоятельно в интернете. Могу вешать стандартные обработчики событий и некоторые функции для выполнения рассчетов.</p>
+						</div>
+					</div>
+					<div id="bt-popup">
+						<div class="skills-list_popup_op"></div>
+						<div class="skills-list_popup">
+							<p onclick="document.getElementById('bt-popup').style.display='none';">Закрыть</p>
+							<p>Bootstrap только начал изучать, пока нет возможности похвастаться примерами =(</p>
+						</div>
+					</div>
+					<div id="jq-popup">
+						<div class="skills-list_popup_op"></div>
+						<div class="skills-list_popup">
+							<p onclick="document.getElementById('jq-popup').style.display='none';">Закрыть</p>
+							<p>jQuery также стал изучать самостоятельно в интернете, научился делать стандартные обработчики событий и функции.</p>
+						</div>
+					</div>
+				</div>
+				<div class="clearfix">
+					<h3 class="main-content_resume_block-header">Образование</h3>
+				</div>
+				<div class="main-content_resume_block">
+					<h4 class="main-content_resume_block-header_mini">МГАКХИС</h4>
+					<div class="main-content_resume_block_info">
+						<p class="clearfix">Факультет городского, дорожного строительства и хозяйства</p>
+						<p class="clearfix">Инженер-строитель</p>
+						<p class="clearfix">2012 г.</p>
+						<p class="clearfix">4 курса</p>
+					</div>
+					<h4 class="main-content_resume_block-header_mini">Нетология</h4>
+					<div class="main-content_resume_block_info">
+						<p class="clearfix">HTML-верстка</p>
+						<p class="clearfix">Онлайн обучение</p>
+						<p class="clearfix">2015 г.</p>
+					</div>
+					<h4 class="main-content_resume_block-header_mini">Нетология</h4>
+					<div class="main-content_resume_block_info">
+						<p class="clearfix">Инструменты и приемы профессиональной front-end разработки</p>
+						<p class="clearfix">Онлайн обучение</p>
+						<p class="clearfix">2016 г.</p>
+					</div>
+				</div>
+				<div class="clearfix">
+					<h3 class="main-content_resume_block-header">Что-то ещё</h3>
+				</div>
+				<div class="main-content_resume_block">
+					<h4 class="main-content_resume_block-header_mini">Можно будет добавить потом</h4>
+					<div class="main-content_resume_block_info">
+						<p class="clearfix">Вот так вот</p>
+						<p class="clearfix">Бая привет!</p>
+					</div>
+				</div>
+			</article>
+		</section>
+		<footer class="main-footer">
+				<div class="mani-footer_contacts-text">Мои контакты:</div>
+				<ul class="main-footer_contacts-all">
+					<li class="main-footer_contacts-all_li">Tell: 8 (916) 597 3531</li>
+					<li class="main-footer_contacts-all_li">Skype: darklimon</li>
+					<li class="main-footer_contacts-all_li">E-mail: rozhkov90@yandex.ru</li>
+				</ul>
+		</footer>
+	</div>
+</body>
+</html>
