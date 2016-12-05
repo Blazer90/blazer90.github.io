@@ -517,6 +517,12 @@ a:active {
 .inblock-buttons {
 	width: 60em;
 	text-align: center;
+	margin: auto;
+}
+
+.inblock-buttons_fixed {
+	width: 60em;
+	text-align: center;
 }
 
 .inblock-buttons_inline-wrapper {
@@ -529,6 +535,16 @@ a:active {
 	display: inline-block;
 	padding: 2rem;
 	font-size: 1.5rem;
+}
+
+.button-skills {
+	text-align: center;
+	padding: 1rem;
+	background-color: #393939;
+	color: #d0d0d0;
+	font-size: 1.5rem;
+	border-radius: 0rem;
+	border: 0rem;
 }
 
 
@@ -547,6 +563,19 @@ a:active {
 /*css positions*/
 
 /*CSS end*/
+
+/*JS*/
+
+.js-styles {
+	font-size: 1.5rem;
+	color: #d0d0d0;
+	margin-top: 1rem;
+	padding: 2rem;
+	text-align: center;
+	background-color: #393939;
+}
+
+/*JS end*/
 
 .main-content_about-me {
 	color: #5c5c5c;
