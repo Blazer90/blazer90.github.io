@@ -707,6 +707,7 @@ a:active {
 
 	.skills-list_popup {
 		font-size: 2.5rem;
+		line-height: 2.8rem;
 	}
 
 	.skills-list_popup p:nth-child(1) {
