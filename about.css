@@ -530,7 +530,7 @@ a:active {
 }
 
 .inblock-buttons_fixed {
-	width: 60em;
+	width: 90em;
 	text-align: center;
 }
 
@@ -551,7 +551,7 @@ a:active {
 
 .css-fixed {
 	position: fixed;
-	width: 92em;
+	width: 122em;
 }
 
 .css-fixed_content {
