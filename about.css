@@ -256,9 +256,11 @@ a:active {
 	float: left;
     background: url(img/marc-arrow.png);
     width: 1.4rem;
-    height: 1.4rem;
+    height: 1.3rem;
     margin: 0.4rem 1rem 0rem 0rem;
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
 }
 
 /*end*/
@@ -462,7 +464,7 @@ a:active {
 	width: 50rem;
 	position: fixed;
 	top: 30%;
-	left: 30%;
+	left: 52rem;
 	z-index: 20;
 	padding: 2rem;
 	font-size: 1.8rem;
@@ -687,6 +689,15 @@ a:active {
     html {
         font-size: 8px;
     }
+
+    .skills-list_popup {
+		font-size: 1.9rem;
+		line-height: 2.2rem;
+	}
+
+	.skills-list_popup p:nth-child(1) {
+		font-size: 1.7rem;
+	}
 }
 
 
@@ -694,12 +705,34 @@ a:active {
     html {
         font-size: 7px;
     }
+
+    .container {
+    	width: 130rem;
+	}
+
+    .skills-list_popup {
+		font-size: 2rem;
+		line-height: 2.3rem;
+	}
+
+	.skills-list_popup p:nth-child(1) {
+		font-size: 1.8rem;
+	}
 }
 
 @media screen and (max-width: 960px) {
     html {
         font-size: 5px;
     }
+
+    .skills-list_popup {
+		font-size: 2rem;
+		line-height: 2.3rem;
+	}
+
+	.skills-list_popup p:nth-child(1) {
+		font-size: 1.8rem;
+	}
 }
 
 @media screen and (max-width: 480px) {
