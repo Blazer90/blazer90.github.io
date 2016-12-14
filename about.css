@@ -724,11 +724,11 @@ a:active {
 	}
 
 	.inblock-buttons_fixed {
-		width: 90em;
+		width: 95em;
 	}
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 860px) {
     html {
         font-size: 5px;
     }
@@ -773,7 +773,31 @@ a:active {
 	.skills-list_popup p:nth-child(1) {
 		font-size: 2.3rem;
 	}
+
+	.css-fixed {
+		width: 82em;
+	}
 	
+}
+
+@media screen and (max-width: 375px) {
+    html {
+        font-size: 3px;
+    }
+
+    .container {
+   	width: 100%;
+	margin: 0;
+	}
+
+	.css-fixed {
+		width: 105em;
+	}
+
+	.inblock-buttons_fixed {
+		width: 70em;
+	}
+
 }
 
 @media screen and (max-width: 360px) {
@@ -784,6 +808,50 @@ a:active {
     .container {
    	width: 100%;
 	margin: 0;
+	}
+
+	.css-fixed {
+		width: 100em;
+	}
+
+}
+
+@media screen and (max-width: 320px) {
+    html {
+        font-size: 3px;
+    }
+
+    .container {
+   	width: 100%;
+	margin: 0;
+	}
+
+	.css-fixed {
+		width: 88em;
+	}
+
+	.inblock-buttons_fixed {
+		width: 55em;
+	}
+
+}
+
+@media screen and (max-width: 300px) {
+    html {
+        font-size: 3px;
+    }
+
+    .container {
+   	width: 100%;
+	margin: 0;
+	}
+
+	.css-fixed {
+		width: 82em;
+	}
+
+	.inblock-buttons_fixed {
+		width: 50em;
 	}
 
 }
