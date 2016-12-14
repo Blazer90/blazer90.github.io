@@ -705,10 +705,13 @@ a:active {
 		margin: 0;
 	}
 
-	.skills-list_popup p:nth-child(1) {
-	font-size: 3rem;
-}
+	.skills-list_popup {
+		font-size: 2.5rem;
+	}
 
+	.skills-list_popup p:nth-child(1) {
+		font-size: 2.3rem;
+	}
 	
 }
 
