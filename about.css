@@ -596,14 +596,16 @@ a:active {
 .js-math_input {
 	border: solid 0.2rem;
 	border-radius: 0rem;
-	width: 4rem;
-	font-size: 1.3rem;
+	width: 10rem;
+	height: 2.1rem;
+	font-size: 1.2rem;
 	color: #5c5c5c;
 	margin: 0.5rem 0.5rem 0.5rem 0rem;
+	padding-left: 0.2rem;
 	font-weight: 700;
 }
 
-.js-math_first, .js-math_two, .js-math_count {
+.js-math_first, .js-math_two, .js-math_input {
 	display: block;
 }
 
