@@ -1,0 +1,449 @@
+html {
+	box-sizing: border-box;
+	font-family: 'Arial', sans-serif;
+}
+
+.container {
+	width: 90%;
+	margin: 10px auto;
+}
+
+.rating {
+	border: none;
+	font-family: 'Arial', sans-serif;
+	font-size: 13px;
+	width: 90%;
+	border-collapse: collapse;	
+}
+
+
+.rating_contents_fix, .rating_names_fix {
+	width: 2%;
+	border-bottom: none;
+}
+
+/*HEADER*/
+
+.rating_header_1, .rating_header_2 {
+	text-align: left;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+/*HEADER END*/
+
+/*CONTENTS*/
+
+.rating_contents {
+	height: 30px;
+	vertical-align: middle;
+}
+
+
+.rating_contents_place {
+	width: 5%;
+	border-bottom: 2px groove #e3e3e3;
+}
+
+.rating_contents_pizza {
+	width: 13.5%;
+	border-bottom: 2px groove #e3e3e3;
+}
+
+.rating_contents_r1 {
+	width: 4%;
+	border-bottom: 2px groove #e3e3e3;
+}
+
+.rating_contents_quality {
+	width: 5%;
+	border-bottom: 2px groove #e3e3e3;
+}
+
+.rating_contents_service {
+	width: 4%;
+	border-bottom: 2px groove #e3e3e3;
+}
+
+.rating_contents_clean {
+	width: 5%;
+	border-bottom: 2px groove #e3e3e3;
+}
+
+.rating_contents_weeks {
+	width: 4%;
+	border-bottom: 2px groove #e3e3e3;
+}
+
+.rating_contents_r2 {
+	width: 7.5%;
+	border-bottom: 2px groove #e3e3e3;
+}
+
+.rating_contents_problems {
+	width: 50%;
+	border-bottom: 2px groove #e3e3e3;
+}
+
+/*CONTENTS END*/
+
+/*NAMES*/
+
+.rating_names {
+	transition: background-color 0.4s cubic-bezier(0.39, 0.575, 0.565, 1);
+	-webkit-transition: background-color 0.4s cubic-bezier(0.39, 0.575, 0.565, 1);
+	-moz-transition: background-color 0.4s cubic-bezier(0.39, 0.575, 0.565, 1);
+	-o-transition: background-color 0.4s cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+
+.rating_names:hover {
+	background-color: #b0c2cc;
+	cursor: default;
+}
+
+.rating_names td {
+	height: 23px;
+}
+
+.first_place td {
+	padding-top: 6px;
+}
+
+.rating_names_separator:hover {
+	background-color: #fff;
+}
+
+
+.rating_names_place-medal {
+	width: 1%;
+}
+
+.rating_names_place-medal_gold, .rating_names_place-medal_silver, .rating_names_place-medal_bronze {
+	display: inline-block;
+	width: 11px;
+	height: 11px;
+	border-radius: 5px;
+}
+
+.rating_names_place-medal_gold {
+	background-color: #f6dd3a;
+}
+
+.rating_names_place-medal_silver {
+	background-color: #b0c2cc;
+}
+
+.rating_names_place-medal_bronze {
+	background-color: #eba93b;
+}
+
+.rating_names_pizza_link, .footer_contact_link, .footer_table_link {
+	text-decoration: none;
+	color: #2a7fdd;
+}
+
+.rating_names_pizza_link:hover, .footer_table_link:hover {
+	text-decoration: underline;
+	color: #e97901;
+	opacity: 0.8;
+}
+
+.rating_names_pizza_link:visited, .footer_contact_link:visited, .footer_table_link:visited {
+	text-decoration: none;
+	color: #6f57e6;
+}
+
+.rating_names_quality, .rating_names_service, .rating_names_clean {
+	color: #af827c;
+}
+
+.rating_names_weeks_1 {
+	width: 40px;
+	height: 20px;
+	background: linear-gradient(90deg, white 100%, white 0%) 0 0 / 8.3% 0.4em no-repeat,
+	linear-gradient(-90deg, grey 100%, green 0%) 0 100% / 8.3% 1.2em no-repeat,
+	linear-gradient(90deg, white 100%, white 0%) 0 0 / 16.6% 0.3em no-repeat,
+	linear-gradient(-90deg, grey 100%, white 0%) 0 100% / 16.6% 1.3em no-repeat,
+	linear-gradient(90deg, white 100%, white 0%) 0 0 / 24.9% 0.3em no-repeat,
+	linear-gradient(-90deg, grey 100%, white 0%) 0 100% / 24.9% 1.3em no-repeat,
+	linear-gradient(90deg, white 100%, white 0%) 0 0 / 33.2% 0.2em no-repeat,
+	linear-gradient(-90deg, grey 100%, white 0%) 0 100% / 33.2% 1.4em no-repeat,
+	linear-gradient(90deg, white 100%, white 0%) 0 0 / 41.5% 0.3em no-repeat,
+	linear-gradient(-90deg, grey 100%, white 0%) 0 100% / 41.5% 1.3em no-repeat,
+	linear-gradient(90deg, white 100%, white 0%) 0 0 / 49.8% 0.3em no-repeat,
+	linear-gradient(-90deg, grey 100%, white 0%) 0 100% / 49.8% 1.3em no-repeat,
+	linear-gradient(90deg, white 100%, white 0%) 0 0 / 58.1% 0.4em no-repeat,
+	linear-gradient(-90deg, grey 100%, white 0%) 0 100% / 58.1% 1.2em no-repeat,
+	linear-gradient(90deg, white 100%, white 0%) 0 0 / 66.4% 0.3em no-repeat,
+	linear-gradient(-90deg, grey 100%, white 0%) 0 100% / 66.4% 1.3em no-repeat,
+	linear-gradient(90deg, white 100%, white 0%) 0 0 / 74.7% 0.3em no-repeat,
+	linear-gradient(-90deg, grey 100%, white 0%) 0 100% / 74.7% 1.3em no-repeat,
+	linear-gradient(90deg, white 100%, white 0%) 0 0 / 83% 0.3em no-repeat,
+	linear-gradient(-90deg, grey 100%, white 0%) 0 100% / 83% 1.3em no-repeat,
+	linear-gradient(90deg, white 100%, white 0%) 0 0 / 91.3% 0.3em no-repeat,
+	linear-gradient(-90deg, grey 100%, white 0%) 0 100% / 91.3% 1.3em no-repeat,
+	linear-gradient(90deg, white 100%, white 0%) 0 0 / 99.6% 0.3em no-repeat,
+	linear-gradient(-90deg, black 100%, white 0%) 0 100% / 99.6% 1.3em no-repeat;
+}
+
+.rating_names_weeks_2 {
+	width: 40px;
+	height: 20px;
+	background: linear-gradient(90deg, white 100%, white 0%) 0 0 / 8.3% 0.3em no-repeat,
+	linear-gradient(-90deg, grey 100%, green 0%) 0 100% / 8.3% 1.3em no-repeat,
+	linear-gradient(90deg, white 100%, white 0%) 0 0 / 16.6% 0.2em no-repeat,
+	linear-gradient(-90deg, grey 100%, white 0%) 0 100% / 16.6% 1.4em no-repeat,
+	linear-gradient(90deg, white 100%, white 0%) 0 0 / 24.9% 0.3em no-repeat,
+	linear-gradient(-90deg, grey 100%, white 0%) 0 100% / 24.9% 1.3em no-repeat,
+	linear-gradient(90deg, white 100%, white 0%) 0 0 / 33.2% 0.3em no-repeat,
+	linear-gradient(-90deg, grey 100%, white 0%) 0 100% / 33.2% 1.3em no-repeat,
+	linear-gradient(90deg, white 100%, white 0%) 0 0 / 41.5% 0.3em no-repeat,
+	linear-gradient(-90deg, grey 100%, white 0%) 0 100% / 41.5% 1.3em no-repeat,
+	linear-gradient(90deg, white 100%, white 0%) 0 0 / 49.8% 0.4em no-repeat,
+	linear-gradient(-90deg, grey 100%, white 0%) 0 100% / 49.8% 1.2em no-repeat,
+	linear-gradient(90deg, white 100%, white 0%) 0 0 / 58.1% 0.3em no-repeat,
+	linear-gradient(-90deg, grey 100%, white 0%) 0 100% / 58.1% 1.3em no-repeat,
+	linear-gradient(90deg, white 100%, white 0%) 0 0 / 66.4% 0.3em no-repeat,
+	linear-gradient(-90deg, grey 100%, white 0%) 0 100% / 66.4% 1.3em no-repeat,
+	linear-gradient(90deg, white 100%, white 0%) 0 0 / 74.7% 0.3em no-repeat,
+	linear-gradient(-90deg, grey 100%, white 0%) 0 100% / 74.7% 1.3em no-repeat,
+	linear-gradient(90deg, white 100%, white 0%) 0 0 / 83% 0.2em no-repeat,
+	linear-gradient(-90deg, grey 100%, white 0%) 0 100% / 83% 1.4em no-repeat,
+	linear-gradient(90deg, white 100%, white 0%) 0 0 / 91.3% 0.3em no-repeat,
+	linear-gradient(-90deg, grey 100%, white 0%) 0 100% / 91.3% 1.3em no-repeat,
+	linear-gradient(90deg, white 100%, white 0%) 0 0 / 99.6% 0.3em no-repeat,
+	linear-gradient(-90deg, black 100%, white 0%) 0 100% / 99.6% 1.3em no-repeat;
+}
+
+.rating_names_weeks_3 {
+	width: 40px;
+	height: 20px;
+	background: linear-gradient(90deg, white 100%, white 0%) 0 0 / 8.3% 0.3em no-repeat,
+	linear-gradient(-90deg, grey 100%, green 0%) 0 100% / 8.3% 1.3em no-repeat,
+	linear-gradient(90deg, white 100%, white 0%) 0 0 / 16.6% 0.3em no-repeat,
+	linear-gradient(-90deg, grey 100%, white 0%) 0 100% / 16.6% 1.3em no-repeat,
+	linear-gradient(90deg, white 100%, white 0%) 0 0 / 24.9% 0.4em no-repeat,
+	linear-gradient(-90deg, #af827c 100%, white 0%) 0 100% / 24.9% 1.2em no-repeat,
+	linear-gradient(90deg, white 100%, white 0%) 0 0 / 33.2% 0.4em no-repeat,
+	linear-gradient(-90deg, grey 100%, white 0%) 0 100% / 33.2% 1.2em no-repeat,
+	linear-gradient(90deg, white 100%, white 0%) 0 0 / 41.5% 0.2em no-repeat,
+	linear-gradient(-90deg, grey 100%, white 0%) 0 100% / 41.5% 1.4em no-repeat,
+	linear-gradient(90deg, white 100%, white 0%) 0 0 / 49.8% 0.3em no-repeat,
+	linear-gradient(-90deg, grey 100%, white 0%) 0 100% / 49.8% 1.3em no-repeat,
+	linear-gradient(90deg, white 100%, white 0%) 0 0 / 58.1% 0.4em no-repeat,
+	linear-gradient(-90deg, grey 100%, white 0%) 0 100% / 58.1% 1.2em no-repeat,
+	linear-gradient(90deg, white 100%, white 0%) 0 0 / 66.4% 0.4em no-repeat,
+	linear-gradient(-90deg, grey 100%, white 0%) 0 100% / 66.4% 1.2em no-repeat,
+	linear-gradient(90deg, white 100%, white 0%) 0 0 / 74.7% 0.3em no-repeat,
+	linear-gradient(-90deg, grey 100%, white 0%) 0 100% / 74.7% 1.3em no-repeat,
+	linear-gradient(90deg, white 100%, white 0%) 0 0 / 83% 0.4em no-repeat,
+	linear-gradient(-90deg, grey 100%, white 0%) 0 100% / 83% 1.2em no-repeat,
+	linear-gradient(90deg, white 100%, white 0%) 0 0 / 91.3% 0.3em no-repeat,
+	linear-gradient(-90deg, grey 100%, white 0%) 0 100% / 91.3% 1.3em no-repeat,
+	linear-gradient(90deg, white 100%, white 0%) 0 0 / 99.6% 0.4em no-repeat,
+	linear-gradient(-90deg, black 100%, white 0%) 0 100% / 99.6% 1.2em no-repeat;
+}
+
+.rating_names_weeks_4 {
+	width: 40px;
+	height: 20px;
+	background: linear-gradient(90deg, white 100%, white 0%) 0 0 / 8.3% 0.4em no-repeat,
+	linear-gradient(-90deg, grey 100%, green 0%) 0 100% / 8.3% 1.2em no-repeat,
+	linear-gradient(90deg, white 100%, white 0%) 0 0 / 16.6% 0.3em no-repeat,
+	linear-gradient(-90deg, grey 100%, white 0%) 0 100% / 16.6% 1.3em no-repeat,
+	linear-gradient(90deg, white 100%, white 0%) 0 0 / 24.9% 0.4em no-repeat,
+	linear-gradient(-90deg, grey 100%, white 0%) 0 100% / 24.9% 1.2em no-repeat,
+	linear-gradient(90deg, white 100%, white 0%) 0 0 / 33.2% 0.4em no-repeat,
+	linear-gradient(-90deg, grey 100%, white 0%) 0 100% / 33.2% 1.2em no-repeat,
+	linear-gradient(90deg, white 100%, white 0%) 0 0 / 41.5% 0.5em no-repeat,
+	linear-gradient(-90deg, #af827c 100%, white 0%) 0 100% / 41.5% 1.1em no-repeat,
+	linear-gradient(90deg, white 100%, white 0%) 0 0 / 49.8% 0.3em no-repeat,
+	linear-gradient(-90deg, grey 100%, white 0%) 0 100% / 49.8% 1.3em no-repeat,
+	linear-gradient(90deg, white 100%, white 0%) 0 0 / 58.1% 0.3em no-repeat,
+	linear-gradient(-90deg, grey 100%, white 0%) 0 100% / 58.1% 1.3em no-repeat,
+	linear-gradient(90deg, white 100%, white 0%) 0 0 / 66.4% 0.3em no-repeat,
+	linear-gradient(-90deg, grey 100%, white 0%) 0 100% / 66.4% 1.3em no-repeat,
+	linear-gradient(90deg, white 100%, white 0%) 0 0 / 74.7% 0.3em no-repeat,
+	linear-gradient(-90deg, grey 100%, white 0%) 0 100% / 74.7% 1.3em no-repeat,
+	linear-gradient(90deg, white 100%, white 0%) 0 0 / 83% 0.3em no-repeat,
+	linear-gradient(-90deg, grey 100%, white 0%) 0 100% / 83% 1.3em no-repeat,
+	linear-gradient(90deg, white 100%, white 0%) 0 0 / 91.3% 0.3em no-repeat,
+	linear-gradient(-90deg, grey 100%, white 0%) 0 100% / 91.3% 1.3em no-repeat,
+	linear-gradient(90deg, white 100%, white 0%) 0 0 / 99.6% 0.3em no-repeat,
+	linear-gradient(-90deg, black 100%, white 0%) 0 100% / 99.6% 1.3em no-repeat;
+}
+
+.rating_names_weeks_5 {
+	width: 40px;
+	height: 20px;
+	background: linear-gradient(90deg, white 100%, white 0%) 0 0 / 8.3% 0.4em no-repeat,
+	linear-gradient(-90deg, grey 100%, green 0%) 0 100% / 8.3% 1.2em no-repeat,
+	linear-gradient(90deg, white 100%, white 0%) 0 0 / 16.6% 0.3em no-repeat,
+	linear-gradient(-90deg, grey 100%, white 0%) 0 100% / 16.6% 1.3em no-repeat,
+	linear-gradient(90deg, white 100%, white 0%) 0 0 / 24.9% 0.3em no-repeat,
+	linear-gradient(-90deg, grey 100%, white 0%) 0 100% / 24.9% 1.3em no-repeat,
+	linear-gradient(90deg, white 100%, white 0%) 0 0 / 33.2% 0.2em no-repeat,
+	linear-gradient(-90deg, grey 100%, white 0%) 0 100% / 33.2% 1.4em no-repeat,
+	linear-gradient(90deg, white 100%, white 0%) 0 0 / 41.5% 0.2em no-repeat,
+	linear-gradient(-90deg, grey 100%, white 0%) 0 100% / 41.5% 1.4em no-repeat,
+	linear-gradient(90deg, white 100%, white 0%) 0 0 / 49.8% 0.2em no-repeat,
+	linear-gradient(-90deg, grey 100%, white 0%) 0 100% / 49.8% 1.4em no-repeat,
+	linear-gradient(90deg, white 100%, white 0%) 0 0 / 58.1% 0.3em no-repeat,
+	linear-gradient(-90deg, grey 100%, white 0%) 0 100% / 58.1% 1.3em no-repeat,
+	linear-gradient(90deg, white 100%, white 0%) 0 0 / 66.4% 0.2em no-repeat,
+	linear-gradient(-90deg, grey 100%, white 0%) 0 100% / 66.4% 1.4em no-repeat,
+	linear-gradient(90deg, white 100%, white 0%) 0 0 / 74.7% 0.3em no-repeat,
+	linear-gradient(-90deg, grey 100%, white 0%) 0 100% / 74.7% 1.3em no-repeat,
+	linear-gradient(90deg, white 100%, white 0%) 0 0 / 83% 0.2em no-repeat,
+	linear-gradient(-90deg, grey 100%, white 0%) 0 100% / 83% 1.4em no-repeat,
+	linear-gradient(90deg, white 100%, white 0%) 0 0 / 91.3% 0.3em no-repeat,
+	linear-gradient(-90deg, grey 100%, white 0%) 0 100% / 91.3% 1.4em no-repeat,
+	linear-gradient(90deg, white 100%, white 0%) 0 0 / 99.6% 0.2em no-repeat,
+	linear-gradient(-90deg, black 100%, white 0%) 0 100% / 99.6% 1.4em no-repeat;
+}
+
+.rating_names_weeks_10 {
+	width: 40px;
+	height: 20px;
+	background: linear-gradient(90deg, white 100%, white 0%) 0 0 / 74.7% 0em no-repeat,
+	linear-gradient(-90deg, white 100%, white 0%) 0 100% / 74.7% 2em no-repeat,
+	linear-gradient(90deg, white 100%, white 0%) 0 0 / 83% 0.8em no-repeat,
+	linear-gradient(-90deg, #af827c 100%, white 0%) 0 100% / 83% 0.8em no-repeat,
+	linear-gradient(90deg, white 100%, white 0%) 0 0 / 91.3% 0.2em no-repeat,
+	linear-gradient(-90deg, grey 100%, white 0%) 0 100% / 91.3% 1.4em no-repeat,
+	linear-gradient(90deg, white 100%, white 0%) 0 0 / 99.6% 0.9em no-repeat,
+	linear-gradient(-90deg, #a43e32 100%, white 0%) 0 100% / 99.6% 0.7em no-repeat;
+}
+
+
+.rating_names:nth-child(27) .rating_names_r1-1, .rating_names:nth-child(27) .rating_names_r1-2, 
+.rating_names:nth-child(28) .rating_names_r1-1, .rating_names:nth-child(28) .rating_names_r1-2,
+.rating_names:nth-child(29) .rating_names_r1-1, .rating_names:nth-child(29) .rating_names_r1-2,
+.rating_names:nth-child(30) .rating_names_r1-1, .rating_names:nth-child(30) .rating_names_r1-2,
+.rating_names:nth-child(31) .rating_names_r1-1, .rating_names:nth-child(31) .rating_names_r1-2,
+.rating_names:nth-child(32) .rating_names_r1-1, .rating_names:nth-child(32) .rating_names_r1-2,
+.rating_names:nth-child(33) .rating_names_r1-1, .rating_names:nth-child(33) .rating_names_r1-2,
+.rating_names:nth-child(34) .rating_names_r1-1, .rating_names:nth-child(34) .rating_names_r1-2,
+.rating_names:nth-child(35) .rating_names_r1-1, .rating_names:nth-child(35) .rating_names_r1-2 {
+	color: #af827c;
+}
+
+.rating_names_r1-1 {
+	text-align: right;
+}
+
+.rating_names_r1-2 {
+	text-align: left;
+}
+
+.rating_names_r2_change {
+	position: relative;
+	display: inline-block;
+}
+
+.rating_names_r2_change_up {
+	content: "";
+	display: inline-block;
+	position: absolute;
+	border: 3px solid transparent;
+    border-bottom: 7px solid #46681b;
+    bottom: 3px;
+    left: 2px;
+}
+
+.rating_names_r2_change_down {
+	content: "";
+	display: inline-block;
+	position: absolute;
+	border: 3px solid transparent;
+    border-top: 7px solid #a43e32;
+    bottom: 0px;
+    left: 2px;
+}
+
+.rating_names_r2_change-green {
+	color: #46681b;
+}
+
+.rating_names_r2_change-red {
+	color: #a43e32;
+}
+
+/*NAMES END*/
+
+/*FOOTER*/
+
+.footer {
+	font-size: 13px;
+	width: 100%;
+	margin: 50px 0px 50px 0px;
+	overflow: hidden;
+}
+
+.footer_table {
+	text-align: left;
+	float: left;
+}
+
+.footer_contact {
+	text-align: right;
+	float: right;
+}
+
+.footer_contact_link:hover {
+	text-decoration: none;
+	color: #2a7fdd;
+}
+
+/*FOOTER END*/
+
+/*MEDIA*/
+
+@media screen and (max-width: 800px) {
+    .rating_contents_quality, .rating_contents_service, .rating_contents_clean, .rating_names_quality, .rating_names_service, .rating_names_clean {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .rating_contents_problems, .rating_names_problems {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .footer_table, .footer_contact {
+        float: none;
+        text-align: left;
+    }
+
+    .footer_table {
+        padding-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .rating_names_weeks, .rating_contents_weeks {
+        display: none;
+    }
+
+    .rating_contents_r2 {
+    	width: 30%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .rating_header_2, .rating_contents_r2, .rating_names_r2 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .container {
+    	width: 320px;
+        overflow-x: scroll;
+    }
+}
+
+/*MEDIA END
