@@ -619,6 +619,38 @@ a:active {
 	display: block;
 }
 
+.main-content_js_pogoda {
+	float: left;
+	width: 20rem;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	font-size: 1.4rem;
+}
+
+.main-content_js_pogoda li {
+	padding: 0.4rem 0rem 0.4rem 0rem;
+	width: 10rem;
+}
+
+.main-content_js_pogoda_result {
+	float: left;
+	padding: 0.4rem 0rem 0.4rem 0rem;
+	width: 20rem;
+	height: 10rem;
+	font-size: 1.4rem;
+}
+
+.main-content_js_pogoda .ui-selecting {
+	background: #393939;
+}
+
+.main-content_js_pogoda .ui-selected {
+	background: #393939;
+    color: #d0d0d0;
+}
+
 
 /*JS end*/
 
