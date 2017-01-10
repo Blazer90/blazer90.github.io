@@ -49,9 +49,9 @@ $(document).ready(function() {
 
 
 
-$(document).ready(init);
+$(document).ready(pogoda);
 
-function init(){
+function pogoda(){
     $(function(){
         $(".main-content_js_pogoda").selectable({
             selected: function(event, ui) {
@@ -81,3 +81,10 @@ function init(){
         })
     });
 };
+
+
+$(document).ready(drag);
+
+function drag(){
+  $(".main-content_js_drag_block").draggable();
+}

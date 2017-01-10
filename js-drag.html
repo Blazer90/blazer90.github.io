@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>CSS</title>
+	<title>JS Drag</title>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="normalize.css">
 	<link rel="stylesheet" type="text/css" href="about.css">
@@ -10,6 +10,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<script type="text/javascript" src="jquery-3.0.0.min.js"></script>
 	<script type="text/javascript" src="script.js"></script>
+	<script type="text/javascript" src="jquery-ui.min.js"></script>
 </head>
 <body>
 	<div class="container">
@@ -22,18 +23,22 @@
 			</ul>
 		</nav>
 		<section class="main-content">
-			<h1 class="main-content_header">CSS свойства, приемы и фишки:</h1>
-			<ul class="main-content_menu">
-				<li class="main-content_menu_li"><a href="css-positions.html">CSS Positions</a></li>
-				<li class="main-content_menu_li"><a href="css-adaptive.html">Адаптивная верстка</a></li>
-				<li class="main-content_menu_li"><a href="css-transations.html">CSS Transations</a></li>
-				<li class="main-content_menu_li"><a href="css-transations.html">CSS Animations</a></li>
-				<li class="main-content_menu_li"><a href="css-gradient.html">Gradient</a></li>
-				<li class="main-content_menu_li"><a href="css-transations.html">CSS Sprites</a></li>
-				<li class="main-content_menu_li"><a href="css-transations.html">Box и Text Shadow</a></li>
-				<li class="main-content_menu_li"><a href="css-transations.html">Дополнительно</a></li>
-				<li class="main-content_menu_li"><a href="css-transations.html">Что-то еще</a></li>
-			</ul>
+			<h1 class="main-content_header">Перетаскивание элементов</h1>
+			<div class="main-content_js">
+				<p>Элемент можно переместить (используется плагин jquery "Draggable")</p>
+				<div class="main-content_js_drag">
+					<div class="main-content_js_drag_block">Перетащи меня</div>
+					<div class="main-content_js_drag_block">Перетащи меня</div>
+					<div class="main-content_js_drag_block">Перетащи меня</div>
+					<div class="main-content_js_drag_block">Перетащи меня</div>
+					<div class="main-content_js_drag_block">Перетащи меня</div>
+					<div class="main-content_js_drag_block">Перетащи меня</div>
+				</div>
+			</div>
+			<div class="inblock-buttons">
+					<a href="js.html" class="inblock-buttons_link">К списку</a>
+					<a href="js-pogoda.html" class="inblock-buttons_link">Следующий навык</a>
+			</div>
 		</section>
 		<footer class="main-footer">
 				<div class="mani-footer_contacts-text">Мои контакты:</div>
