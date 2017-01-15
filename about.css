@@ -524,20 +524,23 @@ a:active {
 }
 
 .inblock-buttons {
-	width: 60em;
 	text-align: center;
-	margin: 3rem auto 0 auto;
+	margin-top: 3rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .inblock-buttons_fixed {
-	width: 60em;
 	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .inblock-buttons_inline-wrapper {
 	bottom: 3rem;
 	position: fixed;
-	display: inline-block;
 	background-color: #393939;
 }
 
@@ -832,9 +835,6 @@ a:active {
 		width: 122em;
 	}
 
-	.inblock-buttons_fixed {
-		width: 95em;
-	}
 }
 
 @media screen and (max-width: 860px) {
@@ -860,9 +860,6 @@ a:active {
 		width: 82em;
 	}
 
-	.inblock-buttons_fixed {
-		width: 50em;
-	}
 }
 
 @media screen and (max-width: 500px) {
@@ -911,10 +908,6 @@ a:active {
 		width: 105em;
 	}
 
-	.inblock-buttons_fixed {
-		width: 70em;
-	}
-
 	.skills-list_popup {
 		left: 30%;
 	}
@@ -951,10 +944,6 @@ a:active {
 		width: 88em;
 	}
 
-	.inblock-buttons_fixed {
-		width: 55em;
-	}
-
 	.skills-list_popup {
 		left: 29%;
 	}
@@ -973,10 +962,6 @@ a:active {
 
 	.css-fixed {
 		width: 82em;
-	}
-
-	.inblock-buttons_fixed {
-		width: 50em;
 	}
 
 	.skills-list_popup {
