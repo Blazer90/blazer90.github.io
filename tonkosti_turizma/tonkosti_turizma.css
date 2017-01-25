@@ -47,6 +47,14 @@
 	position: relative;
 	opacity: 1;
 	background: linear-gradient(-180deg, rgba(0,0,0,0) 0, #032835 100%);
+	transition: opacity 1s cubic-bezier(0.39, 0.575, 0.565, 1);
+	-webkit-transition: opacity 1s cubic-bezier(0.39, 0.575, 0.565, 1);
+	-moz-transition: opacity 1s cubic-bezier(0.39, 0.575, 0.565, 1);
+	-o-transition: opacity 1s cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+
+.gid-list_block_bg-img_op:hover {
+	opacity: 0;
 }
 
 .gid-list_block_bg-img_price {
@@ -59,6 +67,7 @@
 	line-height: 35px;
 	font-weight: 700;
 	font-family: 'Roboto', sans-serif;
+	cursor: default;
 }
 
 .gid-list_block_gid {
@@ -90,6 +99,15 @@
 	font-weight: 700;
 	font-family: 'Roboto', sans-serif;
 	color: #2b82a5;
+	cursor: pointer;
+	transition: color 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
+	-webkit-transition: color 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
+	-moz-transition: color 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
+	-o-transition: color 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+
+.gid-list_block_exc-name:hover {
+	color: #4eb2da;
 }
 
 
