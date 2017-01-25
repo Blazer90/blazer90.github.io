@@ -8,6 +8,70 @@
     clear: both;
 }
 
+/*Pop-up*/
+
+.close-pop-up {
+	display: none;
+	position: fixed;
+	left: 10%;
+    top: 10%;
+    right: 10%;
+    bottom: 10%;
+	z-index: 99;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.close-pop-up_op {
+	overflow: visible;
+	height: 100%;
+	background: rgba( 200, 200, 200, .5 );
+	position: fixed;
+	width: 100%;
+	z-index: 10;
+	top: 0;
+	left: 0;
+}
+
+.close-pop-up_block {
+	background-color: #ffffff;
+	border: 2px solid #d4d4d4;
+	border-radius: 5px;
+	height: 400px;
+	width: 450px;
+	position: relative;
+	z-index: 20;
+	padding: 20px;
+	font-size: 25px;
+	line-height: 25px;
+	display: inline-block;
+}
+
+.close-pop-up_block_close {
+	text-align: center;
+	color: #2b82a5;
+	background-color: #ffffff;
+	border-radius: 10px;
+	border: 2px solid #d4d4d4;
+	width: 200px;
+	padding: 15px 15px;
+	margin: 150px auto 10px auto;
+	cursor: pointer;
+	transition: color 0.3s cubic-bezier(0.39, 0.575, 0.565, 1), background-color 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
+	-webkit-transition: color 0.3s cubic-bezier(0.39, 0.575, 0.565, 1), background-color 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
+	-moz-transition: color 0.3s cubic-bezier(0.39, 0.575, 0.565, 1), background-color 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
+	-o-transition: color 0.3s cubic-bezier(0.39, 0.575, 0.565, 1), background-color 0.3s cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+
+.close-pop-up_block_close:hover {
+	background-color: #226e8d;
+	color: #ffffff;
+}
+
+/*Pop-up end*/
+
+
+
 .container {
 	max-width: 1600px;
 	margin: 0 auto;

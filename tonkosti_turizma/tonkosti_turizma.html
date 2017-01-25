@@ -5,12 +5,21 @@
 	<meta charset="UTF-8">
 	<link rel="stylesheet" type="text/css" href="normalize.css">
 	<link rel="stylesheet" type="text/css" href="tonkosti_turizma.css">
+	<script type="text/javascript" src="../jquery-3.0.0.min.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	<link rel="shortcut icon" href="img/favicon.ico">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 	<div class="container">
+	<div class="close-pop-up">
+		<div class="close-pop-up_op"></div>
+		<div class="close-pop-up_block">
+			<p>Уже уходите?</p>
+			<p>Для Вас есть специальное предложение!</p>
+			<div class="close-pop-up_block_close">Ознакомиться</div>
+		</div>
+	</div>
 		<ul class="gid-list clearfix">
 			<li class="gid-list_block">
 				<div class="gid-list_block_gid clearfix">
@@ -80,5 +89,19 @@
 			</li>
 		</ul>
 	</div>
+	<script>
+        $(function() {
+	        $('.close-pop-up_block_close').click(function(){
+	            $('.close-pop-up').fadeOut(300);
+	        })
+	        var flag = true;
+	        $(window).mouseout(function(e){
+	            if(e.pageY - $(window).scrollTop() < 1 && flag == true){
+	                $('.close-pop-up').fadeIn(300);
+	                flag = false;
+	            }
+	        }) 
+    	});
+    </script>
 </body>
 </html>
