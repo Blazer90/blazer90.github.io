@@ -12,12 +12,12 @@ html {
 }
 
 @font-face {
-    font-family: Akrobat-bold;
+    font-family: 'Akrobat-bold';
     src: url('fonts/Akrobat-bold.otf');
 }
 
 @font-face {
-    font-family: Akrobat-thin;
+    font-family: 'Akrobat-thin';
     src: url('fonts/Akrobat-thin.otf');
 }
 
