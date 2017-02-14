@@ -396,6 +396,7 @@ h1, h2, h3, h4 {
 
     .ski-about-block_1-col {
         padding: 20px;
+        height: inherit;
     }
 
     .ski-about-block_2-col_img {
@@ -475,5 +476,9 @@ h1, h2, h3, h4 {
 @media (max-width: 400px){
     .items-block_img {
         height: 190px;
+    }
+
+    .promo-block_content-wrap {
+        width: 310px;
     }
 }
