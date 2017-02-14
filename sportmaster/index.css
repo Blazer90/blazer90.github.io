@@ -199,7 +199,7 @@ h1, h2, h3, h4 {
     -webkit-transition: all 1s ease-out;
     transition: all 0.7s ease-out;
     overflow: hidden;
-    margin-bottom: -3px;
+    margin-bottom: -4px;
 }
 
 .items-block_img:hover {
@@ -463,7 +463,7 @@ h1, h2, h3, h4 {
 @media (max-width: 400px){
     .ski-about-block_2-col_img {
         width: 400px;
-        margin-bottom: -3px;
+        margin-bottom: -4px;
     }
 
     .promo-block_content-wrap {
