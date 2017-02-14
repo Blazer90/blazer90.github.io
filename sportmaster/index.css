@@ -199,7 +199,7 @@ h1, h2, h3, h4 {
     -webkit-transition: all 1s ease-out;
     transition: all 0.7s ease-out;
     overflow: hidden;
-    margin-bottom: -1px;
+    margin-bottom: -3px;
 }
 
 .items-block_img:hover {
