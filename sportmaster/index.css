@@ -463,6 +463,7 @@ h1, h2, h3, h4 {
 @media (max-width: 400px){
     .ski-about-block_2-col_img {
         width: 400px;
+        margin-bottom: -3px;
     }
 
     .promo-block_content-wrap {
