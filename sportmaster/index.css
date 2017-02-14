@@ -1,0 +1,473 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-family: "Co Text Corp";
+}
+
+@font-face {
+    font-family: "Co Text Corp";
+    src: url('fonts/Co Text Corp Regular.ttf');
+}
+
+@font-face {
+    font-family: "Co Text Corp Light";
+    src: url('fonts/Co Text Corp Light.ttf');
+}
+
+@font-face {
+    font-family: 'Co Headline Corp';
+    src: url('fonts/Co Headline Corp Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Co Headline Corp Light';
+    src: url('fonts/Co Headline Corp Light.ttf');
+}
+
+a {
+	text-decoration: none;
+}
+
+h1, h2, h3, h4 {
+	margin: 0;
+    font-weight: 400;
+}
+
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+	width: 100%;
+	max-width: 640px;
+	min-width: 360px;
+	margin: 0 auto;
+	-webkit-box-shadow: 0px 0px 30px 1px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0px 0px 30px 1px rgba(0,0,0,0.5);
+	box-shadow: 0px 0px 30px 1px rgba(0,0,0,0.5);
+	overflow: hidden;
+}
+
+.header {
+    padding-bottom: 10px;
+}
+
+/*Main block*/
+
+.main-block {
+    font-size: 3px;
+}
+
+.main-block_header {
+    width: 320px;
+    font-size: 30px;
+    line-height: 40px;
+    color: #ffffff;
+    padding: 30px 30px 110px 15px;
+    background: linear-gradient(-90deg, rgba(0,0,0,0) 0, rgba(64,115,161,.5) 100%);
+    font-family: "Co Headline Corp";
+    text-transform: uppercase;
+}
+
+.main-block_header-wrap {
+    width: 100%;
+    background-image: url('img/main-block-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.main-block_link {
+    display: inline-block;
+    width: 49.94%;
+    padding: 20px;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #005aab;
+    -moz-transition: background-color 0.7s ease-out, color 0.7s ease-out;
+    -o-transition: all 1s ease-out;
+    -webkit-transition: all 1s ease-out;
+    transition: background-color 0.7s ease-out, color 0.7s ease-out;
+}
+
+.main-block_link:hover {
+    color: #e3e3e3;
+    background-color: #044784;
+}
+
+/*Ski block*/
+
+.ski-about-block {
+    margin-top: 30px;
+    font-size: 0px;
+}
+
+.ski-about-block_1-col {
+    display: inline-block;
+    font-size: 20px;
+    width: 50%;
+    vertical-align: top;
+    background-image: url('img/about-table.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: #000000;
+    color: #ffffff;
+    height: 375px;
+    overflow-y: hidden;
+}
+
+.ski-about-block_1-col_header {
+    font-size: 25px;
+    padding: 15px 0px 15px 15px;
+    width: 240px;
+    font-weight: 400;
+    font-family: "Co Headline Corp";
+}
+
+.ski-about-block_1-col_table {
+    padding: 0px 20px 0px 15px;
+}
+
+.ski-about-block_1-col_table_number {
+    padding-right: 10px;
+}
+
+.ski-about-block_1-col_table_number .wrap {
+    display: inline-block;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #ffffff;
+    color: #555655;
+    font-size: 15px;
+    width: 20px;
+    height: 20px;
+}
+
+.ski-about-block_1-col_table_header, .ski-about-block_1-col_table_text {
+    font-size: 17px;
+}
+
+.ski-about-block_1-col_table_header {
+    font-weight: 700;
+    vertical-align: bottom;
+}
+
+.ski-about-block_1-col_table_text {
+    font-family: "Co Text Corp Light";
+    vertical-align: top;
+}
+
+.ski-about-block_2-col {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+}
+
+.ski-about-block_link, .promo-block_link {
+    display: block;
+    font-size: 25px;
+    color: #ffffff;
+    background-color: #ff0000;
+    padding: 25px 0px;
+    text-align: center;
+    -moz-transition: background-color 0.7s ease-out, color 0.7s ease-out;
+    -o-transition: all 1s ease-out;
+    -webkit-transition: all 1s ease-out;
+    transition: background-color 0.7s ease-out, color 0.7s ease-out;
+}
+
+.ski-about-block_link:hover, .promo-block_link:hover {
+    background-color: #bf0606;
+    color: #e4e4e4;
+}
+
+/*Items block*/
+
+.items-block {
+    margin-top: 30px;
+    font-size: 0px;
+    overflow: hidden;
+}
+
+.items-block_img {
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    -webkit-transition: all 1s ease-out;
+    transition: all 0.7s ease-out;
+    overflow: hidden;
+}
+
+.items-block_img:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.items-block_link {
+    position: relative;
+    z-index: 10;
+    display: block;
+    font-size: 25px;
+    color: #ffffff;
+    background-color: #545454;
+    padding: 25px 0px;
+    text-align: center;
+    font-family: "Co Headline Corp";
+    -moz-transition: background-color 0.7s ease-out, color 0.7s ease-out;
+    -o-transition: all 1s ease-out;
+    -webkit-transition: all 1s ease-out;
+    transition: background-color 0.7s ease-out, color 0.7s ease-out;
+}
+
+.items-block_link:hover {
+    background-color: #3b3b3b;
+    color: #dddddd;
+}
+
+/*Promo block*/
+
+.promo-block {
+    position: relative;
+    color: #ffffff;
+    margin-top: 30px;
+    font-size: 0px;
+    font-family: "Co Headline Corp";
+}
+
+.promo-block_absolute-1 {
+    position: absolute;
+    bottom: 260px;
+    left: 350px;
+}
+
+.promo-block_absolute-2 {
+    position: absolute;
+    bottom: 230px;
+    left: 310px;
+}
+
+.promo-block_content-wrap {
+    background-image: url(img/promo-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    padding: 25px 0px 25px 20px;
+}
+
+.promo-block_header {
+    font-size: 33px;
+    width: 310px;
+}
+
+.promo-block_fabric {
+    background-position: center;
+    width: 175px;
+    height: 175px;
+    border: 5px solid #ffffff;
+    border-radius: 90px;
+    margin: 35px 0px 35px 70px;
+}
+
+.promo-block_fabric.fabric-1 {
+    background-image: url('img/promo-1-fab.jpg');
+}
+
+.promo-block_fabric.fabric-2 {
+    background-image: url('img/promo-2-fab.jpg');
+}
+
+.promo-block_text_name {
+    display: inline-block;
+    width: 280px;
+    font-size: 25px;
+    font-family: "Co Headline Corp Light";
+}
+
+.promo-block_text_icons_wrap {
+    display: inline-block;
+}
+
+.promo-block_text_icons {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.promo-block_text_icons.first-icon {
+    width: 90px;
+}
+
+.promo-block_text_icons.second-icon {
+    width: 95px;
+}
+
+.promo-block_text_icons.third-icon {
+    width: 60px;
+}
+
+.promo-block_text_icons.fourth-icon {
+    width: 105px;
+}
+
+.promo-block_text_icons.fifth-icon {
+    width: 55px;
+}
+
+.promo-block_text_icons.sixth-icon {
+    width: 105px;
+}
+
+.promo-block_text_icons_about {
+    font-size: 18px;
+    font-family: "Co Headline Corp Light";
+    padding-right: 10px;
+    padding-top: 15px;
+}
+
+.promo-block_text_name_name_2 span {
+    color: #54b948;
+}
+
+
+/*MEDIA*/
+
+
+@media (max-width: 610px){
+    .promo-block_text_name, .promo-block_text_icons_wrap {
+        display: block;
+    }
+
+    .promo-block_text_icons_wrap {
+        padding-top: 20px;
+    }
+
+    .promo-block_fabric {
+        margin-left: 40px;
+    }
+
+    .promo-block_absolute-1 {
+        left: 310px;
+    }
+
+    .promo-block_absolute-2 {
+        left: 270px;
+    }
+
+    .ski-about-block_1-col_header {
+        padding: 7px 0px 7px 15px;
+    }
+
+    .ski-about-block_1-col_table_text {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 580px){
+    .main-block_link {
+        width: 49.9%;
+    }
+
+    .ski-about-block_1-col_header {
+        font-size: 23px;
+    }
+
+    .ski-about-block_1-col_table_header {
+        font-size: 16px;
+    }
+
+    .promo-block_absolute-1 {
+        left: 290px;
+    }
+
+    .promo-block_absolute-2 {
+        left: 250px;
+    }
+}
+
+@media (max-width: 560px){
+    .ski-about-block_1-col, .ski-about-block_2-col {
+        display: block;
+        width: 100%;
+    }
+
+    .ski-about-block_1-col {
+        padding: 20px;
+    }
+
+    .ski-about-block_2-col_img {
+        width: 560px;
+    }
+
+    .promo-block {
+        background-image: url(img/promo-bg.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: auto 100%;
+    }
+
+    .promo-block_content-wrap {
+        width: 320px;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: none;
+        padding-left: 0;
+    }
+
+    .promo-block_absolute-1 {
+        display: none;
+    }
+
+    .promo-block_absolute-2 {
+        display: none;
+    }
+}
+
+@media (max-width: 500px){
+    .items-block_img {
+        height: 250px;
+    }
+
+    .promo-block_content-wrap {
+        width: 400px;
+    }
+}
+
+@media (max-width: 440px){
+    .items-block_img {
+        height: 210px;
+    }
+
+    .main-block_header {
+        font-size: 26px;
+    }
+
+    .ski-about-block_2-col_img {
+        width: 440px;
+    }
+
+    .promo-block_content-wrap {
+        width: 350px;
+    }
+
+    .promo-block_header {
+        font-size: 29px;
+    }
+}
+
+@media (max-width: 400px){
+    .ski-about-block_2-col_img {
+        width: 400px;
+    }
+
+    .promo-block_content-wrap {
+        width: 320px;
+    }
+
+    .promo-block_header {
+        font-size: 27px;
+    }
+}
